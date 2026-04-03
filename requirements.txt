@@ -1,0 +1,8 @@
+﻿streamlit
+pandas
+docxtpl
+bahttext
+google-generativeai
+holidays
+Pillow
+python-docx
