@@ -109,7 +109,7 @@ if image_to_process is not None and st.button("🤖 ให้ AI แกะข้
         try:
             with st.spinner("AI กำลังอ่านและวิเคราะห์ประเภทเอกสาร... 🪄"):
                 genai.configure(api_key=api_key)
-                model = genai.GenerativeModel('gemini-3.1-flash-image-preview')
+                model = genai.GenerativeModel('gemini-2.5-pro')
                 img = Image.open(image_to_process)
                 
                 # แปลงรายชื่อครูเป็นข้อความยาวๆ เพื่อส่งให้ AI อ่าน
